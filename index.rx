@@ -1,0 +1,21 @@
+class Index
+
+  def sum(n1,n2)
+  	print n1
+  	print n2
+  	# sum = n1 + n2
+  	puts "sum is :#{n1 + n2}"
+  end
+  def get_input
+  	puts "enter first number"
+    num1 = gets
+  	puts "enter second number"
+  	num2 = gets
+  	sum(num1,num2)
+  end
+
+end
+
+ad = Index.new()
+
+ad.get_input
